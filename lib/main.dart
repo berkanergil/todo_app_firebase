@@ -48,9 +48,9 @@ class _MyAppState extends State<MyApp> {
         transitionBuilder: (Widget child, Animation<double> primaryAnimation,
                 Animation<double> secondaryAnimation) =>
             FadeThroughTransition(
-          animation: primaryAnimation,
-          secondaryAnimation: secondaryAnimation,
-          child: child,
+              animation: primaryAnimation,
+              secondaryAnimation: secondaryAnimation,
+              child: child,
         ),
         child: _screenOptions[pageIndex],
       ),
